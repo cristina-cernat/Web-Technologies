@@ -1,0 +1,67 @@
+@media (min-width: 575px) {
+	.main-header {
+		font-size: 75%;	
+	}
+	
+	#bell img { 
+		width: 35px;
+		height: auto;
+		  }
+	
+	#profile img { 
+		width: 30px;
+		height: auto;
+		  }
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+	.nav-item {
+	   font-size: 0%;
+	}
+	
+	.logo {
+		margin-bottom: 0;
+	}
+	
+	.toolbar-nav {
+		visibility: hidden;	
+	}
+	
+	#bell img, #profile img {
+	
+		width: 0px;
+		height: auto;
+		  }
+		  
+	#menu-icon img {
+			
+		visibility: visible;
+	}
+}
+
+@media (max-width: 280px) {
+	.logo-text{
+			visibility: hidden;
+			}
+		
+	.nav-item {
+	   font-size: 0%;
+			}
+	
+	.logo {
+		margin-bottom: 0;
+		}
+	
+	.toolbar-nav {
+		visibility: hidden;
+				}
+	
+	#image img {
+		width: 0px;
+		height: auto;
+		  }
+		  
+	#menu-icon img {	
+		visibility: visible;
+					}
+}
