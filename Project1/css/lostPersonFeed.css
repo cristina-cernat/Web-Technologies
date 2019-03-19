@@ -1,0 +1,43 @@
+#wrapper {
+	display:flex;
+}
+
+#openalerts{
+	min-width: 19%;
+	border-style: dashed;
+	border-width: thick;
+}
+
+main{
+	min-width: 59%;
+	border-style: dashed;
+	border-width: thick;
+}
+
+#rightside{
+	min-width: 19%;
+	border-style: dashed;
+	border-width: thick;
+}
+
+.fit-picture{
+	max-height: 100px;
+}
+
+.imgperson{
+	float: left;
+}
+
+.missingperson{
+	border-style: dashed;
+	border-width: thick;
+	margin-top:20px;
+}
+
+.buttonfound{
+	float: right;
+	min-width: 100%;
+}
+ #newmissingperson{
+	 min-height: 50%;
+ }

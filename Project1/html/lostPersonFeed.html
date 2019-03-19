@@ -2,17 +2,18 @@
 <html>
 <head>
 	<link rel="stylesheet" href="../css/just_the_header.css">
+	<link rel="stylesheet" href="../css/lostPersonFeed.css">
 	<link rel="stylesheet" media="(max-width:710px)" href="../css/header-small.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<header class="main-header">
-			<div class="header-logo-and-text">
+	<header class="main-header">
+		<div class="header-logo-and-text">
 			<a class="header-logo" href="./just_the_header.html"> CriC </a>
 			<a class="header-logo-text" href="./just_the_header.html"> Crisis Contaiment <p>Service</p> </a>
-			</div>
-			<div class="header-nav">
+		</div>
+		<div class="header-nav">
 			<ul>
 				<li class="header-nav-item" id="header-bell">
 					<img src="../img/bell.svg">
@@ -27,67 +28,83 @@
 					<img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-line-shapes/3/39-512.png">
 				</li>
 			</ul>
+		</div>
+	</header>
+
+	<div id="wrapper">
+	  <aside id="openalerts">
+		<p>
+			This is a placeholder text, I hope you like it because I wrote it with all my heart. 
+			Here should be all the alerts that afect to the user.
+		</p>
+	  </aside>
+	
+	<main>
+		<section class="missingperson">
+			<div class="toppart">
+				<div class="imgperson">
+					<img class="fit-picture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+				</div>
+				<div class="infoperson">
+					<p>Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person.  <p>
+				</div>
 			</div>
-		</header>
+			<div class="foundperson">
+				<button class="buttonfound" type="button">I found this person! </button>
+			</div>
+		</section>
 
-  <aside id="openAlerts">
-	<p>
-		This is a placeholder text, I hope you like it because I wrote it with all my heart. 
-		Here should be all the alerts that afect to the user.
-	</p>
-  </aside>
+		<section class="missingperson">
+			<div class="imgperson">
+				<img class="fit-picture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+			</div>
+			<div class="infoperson">
+				<p>Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person.  <p>
+			</div>
+			<div class="foundperson">
+				<button class="buttonfound" type="button">I found this person! </button>
+			</div>
+		</section>
 
-  <main>
+		<section class="missingperson">
+			<div class="imgperson">
+				<img class="fit-picture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+			</div>
+			<div class="infoperson">
+				<p>Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person. 
+					Here is the info of the person. Here is the info of the person. Here is the info of the person.  <p>
+			</div>
+			<div class="foundperson">
+				<button class="buttonfound" type="button">
+					I found this person!
+				</button>
+			</div>
+		</section>
+	</main>
 
-	<section class="missingperson">
-		<div class="imgperson">
-			<img class="fit-picture" src="../img/CRsapte.jpg" alt="The photo of a person" />
-		</div>
-		<div class="infoperson">
-			<p>Here is the info of the person<p>
-		</div>
-		<div class="foundperson">
-			<button class="buttonfound" type="button">I found this person! </button>
-		</div>
-	</section>
-
-	<section class="missingperson">
-		<div class="imgperson">
-			<img class="fit-picture" src="../img/CRsapte.jpg" alt="The photo of a person" />
-		</div>
-		<div class="infoperson">
-			<p>Here is the info of the person<p>
-		</div>
-		<div class="foundperson">
-			<button class="buttonfound" type="button">I found this person! </button>
-		</div>
-	</section>
-
-	<section class="missingperson">
-		<div class="imgperson">
-			<img class="fit-picture" src="../img/CRsapte.jpg" alt="The photo of a person" />
-		</div>
-		<div class="infoperson">
-			<p>Here is the info of the person<p>
-		</div>
-		<div class="foundperson">
-			<button class="buttonfound" type="button">
-				I found this person!
-			</button>
-		</div>
-	</section>
-
-	<div id="rightSide">
+	<div id="rightside">
 		<section id="newmissingperson">
-			<button class="buttonnewperson" type="button">
-				ADD NEW MISSING PERSON!
-			</button>
+			<button class="buttonnewperson" type="button" onclick="location.href=./lostPersonAdd.html">ADD NEW MISSING PERSON </button>
 		</section>
 		<section id="searchperson">
-		<p> In this part there will be fields for looking for a person<p>
+			<p> In this part there will be fields for looking for a person<p>
 		</section>
 	</div>
-
-  </main>
+	   
+	</div>
 </body>
 </html>
