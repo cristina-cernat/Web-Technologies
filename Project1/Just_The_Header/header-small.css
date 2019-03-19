@@ -3,65 +3,60 @@
 		font-size: 75%;	
 	}
 	
-	#bell img { 
+	#header-bell img { 
 		width: 35px;
 		height: auto;
 		  }
 	
-	#profile img { 
+	#header-profile img { 
 		width: 30px;
 		height: auto;
 		  }
 }
 
 @media (min-width: 280px) and (max-width: 575px) {
-	.nav-item {
+	.header-nav-item {
 	   font-size: 0%;
 	}
 	
-	.logo {
+	.header-logo {
 		margin-bottom: 0;
 	}
 	
-	.toolbar-nav {
+	.header-nav {
 		visibility: hidden;	
 	}
 	
-	#bell img, #profile img {
+	#header-bell img, #header-profile img {
 	
 		width: 0px;
 		height: auto;
 		  }
 		  
-	#menu-icon img {
+	#header-menu-icon img {
 			
 		visibility: visible;
 	}
 }
 
 @media (max-width: 280px) {
-	.logo-text{
+	.header-logo-text{
 			visibility: hidden;
 			}
 		
-	.nav-item {
+	.header-nav-item {
 	   font-size: 0%;
 			}
 	
-	.logo {
+	.header-logo {
 		margin-bottom: 0;
 		}
 	
-	.toolbar-nav {
+	.header-nav {
 		visibility: hidden;
 				}
-	
-	#image img {
-		width: 0px;
-		height: auto;
-		  }
 		  
-	#menu-icon img {	
+	#header-menu-icon img {	
 		visibility: visible;
 					}
 }
