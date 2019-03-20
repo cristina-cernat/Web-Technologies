@@ -35,24 +35,19 @@
 .header-nav-item {
 		padding-top: 7px;
 		font-size: 155%;
-		margin: 5px;
+		margin: 2px;
 		display: inline-flex;
 		position: relative;
           }
 .header-nav-item a {
 	text-decoration: none;
 		color: #d9b08c;
+		margin: 20px;
 }
 		  
-#header-bar {
-		margin-top: 0px;
-		padding-top: 0px;
-		font-size: 250%;
-	 }
-	 
 #header-bell, #header-profile {
 		padding-top: 0px;
-	             }
+	  }
 	   
 #header-bell img {
 		position: relative;
@@ -67,8 +62,9 @@
 		width: 45px;
 		height: auto;
 		margin: 0;
-		padding: 0;
-		     }
+		padding: 10px;
+		border-left: solid;
+	}
 		  
 #header-menu-icon img {
 	    padding: 0;
@@ -84,3 +80,7 @@
 body {
 	background-color: #116466;
 	}
+
+.link {
+	margin:20px;
+}

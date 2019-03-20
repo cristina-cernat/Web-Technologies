@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="../css/just_the_header.css">
 	<link rel="stylesheet" href="../css/just_the_footer.css">
+	<link rel="stylesheet" href="../css/mainPage.css">
 	<link rel="stylesheet" media="(max-width:919px)" href="../css/footer-small.css">	
 	<link rel="stylesheet" media="(max-width:710px)" href="../css/header-small.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,40 +11,46 @@
 </head>
 
 <body>
-	<header class="main-header">
+	<main>
+		<div class="main-header">
 			<div class="header-logo-and-text">
-			<a class="header-logo" href="path-to-main-page"> CriC </a>
-			<a class="header-logo-text" href="path-to-main-page"> Crisis Contaiment <p>Service</p> </a>
+				<a class="header-logo" href="/mainPage.html"> CriC </a>
+				<a class="header-logo-text" href="/mainPage.html"> Crisis Contaiment <p>Service</p> </a>
 			</div>
+
 			<div class="header-nav">
-			<ul>
-				<li class="header-nav-item" id="header-bell">
-					<a href="path-to-notification-page"><img src="../img/bell.svg" alt="Notification_Bell"> </a>
-				</li>	
-				<li class="header-nav-item">
-				<a href="./lostPersonFeed.html">Person Finder</a>
-				</li>
-				<li class="header-nav-item">Login</li>
-				<li class="header-nav-item">Register</li>
-				<li class="header-nav-item" id="header-bar">|</li>
-				<li class="header-nav-item" id="header-profile">
-					<a href="path-to-profile-page"><img src="../img/avatar.svg" alt="Profile_Picture"> </a>
-				</li>
+				<ul>
+					<li class="header-nav-item" id="header-bell">
+						<a href="path-to-notification-page"><img src="../img/bell.svg" alt="Notification_Bell"> </a>
+					</li>	
+					<li class="header-nav-item" ><a href="./lostPersonFeed.html">Person Finder</a></li>
+					<li class="header-nav-item" ><a href="path-to-profile-page"></a>Login</li>
+					<li class="header-nav-item" id="register"><a href="path-to-profile-page"></a>Register</li>
+					<li class="header-nav-item" id="header-profile">
+						<a href="path-to-profile-page"><img src="../img/avatar.svg" alt="Profile_Picture"> </a>
+					</li>
 				<li class="header-nav-item" id="header-menu-icon"> 
-					<img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-line-shapes/3/39-512.png" alt="Menu">
+					<img src="../img/menu.svg" alt="Menu">
 				</li>
 			</ul>
 			</div>
-		</header>
+		</div>
 
-		<main>
-			<div id="container">
-				<img src="../img/CRsapte.jpg">
-			</div>
-		</main>
+	
+	<div id="mainn">
+
+		<div id="container">
+			<iframe width="400" height="400" 
+				src="http://google.org/crisismap/weather_and_events?hl=en&llbox=57.86%2C22.62%2C-39.48%2C-148.46&t=ROADMAP&layers=30%2C1%2C31%2C32%2C1340721332252%3A49%2C20%2C12%2Clayer9%2C2&embedded=true" 
+				style="border: 1px solid #ccc">
+		</div>
+
+	</div>
 		
 	
-	<footer class="main-footer">
+		
+
+	<div class="main-footer">
 		<div class="main-footer-bar">
 			<div class="footer-logo-and-text">
 				<a class="footer-logo" href="path-to-main-page"> CriC </a>
@@ -82,6 +89,11 @@
 				</ul>
 		    </div>
 		</div>
-	</footer>
+	</div>
+</main>
+
+
+
+	
 </body>    
 </html>
