@@ -80,3 +80,7 @@
 body {
 	background-color: #116466;
 	}
+
+	img[src $= ".svg"] {
+		fill: white;
+	}
