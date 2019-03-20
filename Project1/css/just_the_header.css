@@ -39,10 +39,11 @@
 		display: inline-flex;
 		position: relative;
           }
-.header-nav-item > a{
-				text-decoration: none;
-				color: #d9b08c;
-					}
+.header-nav-item a {
+	text-decoration: none;
+		color: #d9b08c;
+}
+		  
 #header-bar {
 		margin-top: 0px;
 		padding-top: 0px;
