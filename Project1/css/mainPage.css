@@ -1,16 +1,34 @@
-#mainn {
+/* body {
+    background-color: #116466;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
+    min-width: 50%;
+    min-height: 100%;
+    height: 100%;
+    padding-bottom: 15%;
+} */
 
+#headerr{
+    border: dashed;
+    border-color: brown;
+}
+  
+
+
+#footerr {
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
 }
 
-.link {
-    margin: 20px;
+#mainn {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+
 }
 
 iframe {
-    border: 1px solid #FFCB9A;
-    margin: 5%;
 
 }
