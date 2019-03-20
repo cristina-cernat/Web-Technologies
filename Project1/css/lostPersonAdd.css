@@ -1,3 +1,7 @@
+footer {
+  float: bottom;
+}
+
 main {
     width: 79%;
     display: flex;
@@ -34,7 +38,7 @@ main {
 }
 
 #textdata{
-
+  width: 39%;
   border-style: dashed;
   border-width: thick;
   float: right;
