@@ -10,7 +10,7 @@ body{
     color: #FFCB9A;
     padding: 1% 5% 5%;
     width: 20%;
-    height:85%;
+    height:88%;
     border-radius:7%;
 }
 
@@ -36,6 +36,7 @@ form{
 .loginbox input[type="text"],input[type="password"],input[type="email"]{
     border:none;
     background:transparent;
+    margin: 1%;
     border-bottom: 1px solid #D9B08C;
 }
 
@@ -43,7 +44,6 @@ form{
     border:none;
     background-color:#1b1b1b;
     height: 40px;
-    fontsize:70px;
     text-align: center;
-    border-radius: 2%;
+    border-radius: 3%;
 }
