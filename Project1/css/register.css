@@ -24,19 +24,24 @@ form{
     display:flex;
     flex-flow: column;
     justify-content: center;
+
 }
 
 .loginbox input
 {
     width:99%;
     color: #FFCB9A;
-    padding:2%;
+    margin-bottom: 12%;
+}
+
+.loginbox label
+{
+    margin-bottom: 5%;
 }
 
 .loginbox input[type="text"],input[type="password"],input[type="email"]{
     border:none;
     background:transparent;
-    margin: 1%;
     border-bottom: 1px solid #D9B08C;
 }
 
