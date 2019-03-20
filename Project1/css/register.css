@@ -5,7 +5,7 @@ body{
     height:600px;
 } 
 
-*.loginbox{
+.loginbox{
     background-color: #2C3531;
     color: #FFCB9A;
     padding: 1% 5% 5%;
@@ -24,7 +24,7 @@ form{
     display:flex;
     flex-flow: column;
     justify-content: center;
-
+    justify-content: space-between;
 }
 
 .loginbox input
