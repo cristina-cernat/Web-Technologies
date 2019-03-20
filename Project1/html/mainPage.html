@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../css/just_the_header.css">
+	<link rel="stylesheet" href="../css/lostPersonAdd.css">
+	<link rel="stylesheet" href="../css/just_the_footer.css">
+	<link rel="stylesheet" media="(max-width:919px)" href="../css/footer-small.css">	
+	<link rel="stylesheet" media="(max-width:710px)" href="../css/header-small.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header class="main-header">
+			<div class="header-logo-and-text">
+			<a class="header-logo" href="path-to-main-page"> CriC </a>
+			<a class="header-logo-text" href="path-to-main-page"> Crisis Contaiment <p>Service</p> </a>
+			</div>
+			<div class="header-nav">
+			<ul>
+				<li class="header-nav-item" id="header-bell">
+					<a href="path-to-notification-page"><img src="../img/bell.svg" alt="Notification_Bell"> </a>
+				</li>	
+				<li class="header-nav-item">
+				<a href="./lostPersonFeed.html">Person Finder</a>
+				</li>
+				<li class="header-nav-item">Login</li>
+				<li class="header-nav-item">Register</li>
+				<li class="header-nav-item" id="header-bar">|</li>
+				<li class="header-nav-item" id="header-profile">
+					<a href="path-to-profile-page"><img src="../img/avatar.svg" alt="Profile_Picture"> </a>
+				</li>
+				<li class="header-nav-item" id="header-menu-icon"> 
+					<img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-line-shapes/3/39-512.png" alt="Menu">
+				</li>
+			</ul>
+			</div>
+		</header>
+	<div id="wrapper">
+		<aside id="openalerts">
+			<p>
+				This is a placeholder text, I hope you like it because I wrote it with all my heart. 
+				Here should be all the alerts that afect to the user.
+			</p>
+		</aside>
+
+		<main>
+			<div id="pictures">
+				<div id="mainpicture">
+					<img class="mainpicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+				</div>
+				<div id="lessrelevantpictures">
+					<img class="lesspicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+					<img class="lesspicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+					<img class="lesspicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+					<img class="lesspicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+					<img class="lesspicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+					<img class="lesspicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+					<img class="lesspicture" src="../img/CRsapte.jpg" alt="The photo of a person" />
+				</div>
+			</div>
+				<div id="textdata">
+					<form action="">
+						<fieldset>
+							<legend>Main description</legend>
+							First name:<br>
+							<input type="text" name="name"><br>
+							Last name:<br>
+							<input type="text" name="lastname"><br>
+							<br>
+							Gender:<br>
+							<input type="radio" name="gender" value="male"> Male<br>
+							<input type="radio" name="gender" value="female"> Female<br>
+							Age:<br>
+							<input type="number" name="age"><br>
+							Height in cm:<br>
+							<input type="number" name="height"><br>
+							Hair colour:<br>
+							<input type="text" name="lasthcolourname"><br>
+							Last time seen:<br>
+							<input type="date" name="lastseen"><br>
+
+						</fieldset>
+						<fieldset id="aditionalinfo">
+							<legend>Aditional info</legend>
+							<input type="text" name="extrainfo"><br>
+						</fieldset>
+						<input type="submit" value="Submit">
+					</form>
+					<p>Here would be a bunch of textfields to fill with the info of the missing person<p>
+				</div>
+			</div>
+		</main>
+	</div>
+	
+	<footer class="main-footer">
+		<div class="main-footer-bar">
+			<div class="footer-logo-and-text">
+				<a class="footer-logo" href="path-to-main-page"> CriC </a>
+				<p class="footer-logo-text"> <a class="link" href="path-to-main-page">Crisis Contaiment </a></p>
+				<a class="link" href="path-to-main-page"><p class="link" id="service">Service</p></a>
+			</div>
+			<div class="footer-nav">
+				<ul>
+					<li class="footer-nav-item">
+						<ul>
+						    <li><a class="link" href="path-to-main-page"> <strong>Home</strong> </a> </li> 
+							<li><a class="link" href="./lostPersonFeed.html">Person Finder</a></li>
+							<li><a class="link" href="path-to-register-page">Register</a></li>
+							<li><a class="link" href="path-to-profile-page">Your Profile</a></li>
+						</ul>
+					</li>
+					<li class="footer-nav-item"><a class="link" href="path-to-the-about-page"> About Crisis Contaiment 
+						<p>Service</p></a>
+					</li>
+					<li class="footer-nav-item"> Contact </li>
+					<li class="footer-nav-item" id="footer-facebook-image">
+						<a href="path-to-facebook-page">
+							<img src="../img/facebook.svg" alt="Facebook">
+						</a>
+					</li>
+					<li class="footer-nav-item" id="footer-twitter-image">
+						<a href="path-to-twitter-page">
+							<img src="../img/twitter.svg" alt="Twitter">
+						</a>
+					</li>
+					<li class="footer-nav-item" id="footer-email-image">
+						<a href="path-to-email">
+							<img src="../img/email.svg" alt="E-mail">
+						</a>
+					</li>
+				</ul>
+		    </div>
+		</div>
+	</footer>
+</body>    
+</html>
