@@ -1,46 +1,18 @@
 footer {
-    float: bottom;
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
   }
   
   main {
-      width: 79%;
-      display: flex;
-      border-style: dashed;
-        border-width: thick;
-  }
-  #openalerts{
-      width: 19%;
-      border-style: dashed;
-      border-width: thick;
-  }
-  
-  #wrapper {
-      display:flex;
-  }
-  
-  .mainpicture{
-      max-height: 200px;
-  }
-  
-  #mainpicture{
-    width: 19%;
-  }
-  
-  #pictures{
-    width: 39%;
+    width: 79%;
+    display: flex;
     border-style: dashed;
     border-width: thick;
-    border-color: red;
   }
   
-  .lesspicture{
-    max-height: 50px;
-  }
-  
-  #textdata{
-    width: 39%;
-    border-style: dashed;
-    border-width: thick;
-    float: right;
-  }
-  
+img {
+    width: 20%;
+    height: auto;
+}
