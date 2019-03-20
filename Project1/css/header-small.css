@@ -1,4 +1,4 @@
-@media (min-width: 575px) {
+@media (min-width: 558px) {
 	.main-header {
 		font-size: 75%;	
 	}
@@ -14,11 +14,11 @@
 		  }
 }
 
-@media (min-width: 280px) and (max-width: 575px) {
-	.header-nav-item {
+@media (min-width: 356px) and (max-width: 597px) {
+/* 	.header-nav-item {
 	   font-size: 0%;
 	}
-	
+	 */
 	.header-logo {
 		margin-bottom: 0;
 	}
@@ -34,12 +34,13 @@
 		  }
 		  
 	#header-menu-icon img {
-			
+		padding-top:10px;	
 		visibility: visible;
+
 	}
 }
 
-@media (max-width: 280px) {
+@media (max-width: 356px) {
 	.header-logo-text{
 			visibility: hidden;
 			}
@@ -56,7 +57,8 @@
 		visibility: hidden;
 				}
 		  
-	#header-menu-icon img {	
+	#header-menu-icon img {
+			padding-top:10px;
 		visibility: visible;
 					}
 }
