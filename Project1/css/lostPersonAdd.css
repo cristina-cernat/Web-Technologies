@@ -8,38 +8,76 @@ main {
     justify-content: space-around;
   color: #d9b08c;
   padding-bottom: 112px;
-  
+
 }
 #openalerts{
   width: 30%;
   height: 30%;
 	border-style: solid;
-	
+
   border-color: #d9b08c;
   padding: 0.313em;
   margin: 0.313em;
 }
 
 #wrapper {
-	display:flex;
+	display: flex;
+}
+
+#mainpicture{
+  width: 19%;
+  margin: 0.313em;
+
 }
 
 .mainpicture{
   max-height: 23.500em;
   max-width: 23.500em;
-  width: auto;
   height: auto;
+  width: 500%;
   display: block;
 
+} 
+
+@media (max-width: 870px ) {
+  #wrapper{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main{
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100.3%;
+  }
+
+  aside{
+    min-width: 97%;
+  }
+
+  #lessrelevantpictures{
+    visibility: hidden;
+    max-width: 0%;
+    position: absolute;
+  }
+  #pictures{
+    max-width: 73.6%;
+    align-self: center;
+  }
+
+  #textdata{
+    min-width: 98%;
+  }
 }
 
 
 
-#mainpicture{
-  width: 19%;
-  margin: 0.313em;
- 
+
+#textdata #aditional{
+  min-width: 100%;
+  min-height: 20px;
 }
+
 
 #pictures{
   min-width: 50%;
@@ -51,13 +89,6 @@ main {
 
 .lesspicture{
   max-height: 50px;
-}
-
-.lesspicture:first-child {
-  margin-left: 0.313em;
-}
-.lesspicture:nth-child(6) {
-  margin-left: 0.313em;
 }
 
 #textdata{
@@ -99,7 +130,7 @@ main {
 
 #location-img {
   width: 3.125em;
-  height: 3.125em; 
+  height: 3.125em;
   margin: 0.313em;
 }
 
