@@ -2,8 +2,10 @@ main{
     background-color: #116466;
     display:flex;
     justify-content: center;
-    height:380px;
     margin:2%;
+	margin-bottom: 8%;
+	min-width:90%;
+
 } 
 
 *.loginbox{
