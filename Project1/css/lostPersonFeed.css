@@ -66,40 +66,17 @@ main{
 	min-width: 100%;
 	background-color: #D9B08C;
   border: none;
-  font-weight: bold;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
 
-#submitbutton{
-	float: right;
-	min-width: 100%;
-	background-color: #D9B08C;
-	border: none;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-}
-input{
-	background-color: #D1E8E2;
-}
-
-.buttonnewperson{
-	min-width: 100%;
-	min-height: 12.500em;
-	background-color: #D9B08C;
-	text-align: center;
-	font-weight: bold;
-}
-
 section{
 	 padding-bottom: 5%;
  }
-
+ 
  #newmissingperson{
 	 min-height: 10%;
 	 margin: 0.313em;

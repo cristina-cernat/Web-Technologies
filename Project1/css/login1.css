@@ -2,15 +2,13 @@ main{
     background-color: #116466;
     display:flex;
     justify-content: center;
-    margin:2%;
-    min-width:90%;
+    margin:2%;  
 } 
 
 *.loginbox{
-    background-color: #2C3531;
     color: #FFCB9A;
     padding: 1% 5% 5%;
-    width: 280px;
+    width: 50%;
     height:300px;
     border-radius:7%;
 }

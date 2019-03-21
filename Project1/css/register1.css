@@ -2,16 +2,16 @@ main{
     background-color: #116466;
     display:flex;
     justify-content: center;
+    height:600px;
     margin:2%;
-    min-width:90%;
 } 
 
-*.loginbox{
+.loginbox{
     background-color: #2C3531;
     color: #FFCB9A;
     padding: 1% 5% 5%;
-    width: 280px;
-    height:300px;
+    width: 60%;
+    height:525px;
     border-radius:7%;
 }
 
@@ -25,7 +25,7 @@ form{
     display:flex;
     flex-flow: column;
     justify-content: center;
-
+    justify-content: space-between;
 }
 
 .loginbox input
