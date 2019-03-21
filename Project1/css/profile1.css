@@ -1,7 +1,7 @@
 
 main
 {
-    height:500px;
+    height:1000px;
     display:flex;
     flex-flow:column;
     align-items: center;
@@ -12,27 +12,30 @@ main
 .profile
 {
     background-color:#2C3531;
-    width: 600px;
+    height:900px;
+    width: 390px;
+    border-left:10px;
+    border-right: 10px;
     margin-top:3%;
     margin-bottom: 3%;
     border-radius:7%;
     display:flex;
-    justify-content: space-around;
-    height:430px;
+    flex-flow:column;
     color:#FFCB9A;
+    font-size:20px;
 }
 
 div.user_info, form.user_info
 {
     display:flex;
     flex-flow: column;
-    padding:25px;
-    width:30%;
+    padding-bottom:25px;
+    width:100%;
 }
 
 #name,#username
 {
-    margin-bottom:10%;
+    margin-bottom:5%;
 }
 
 input[type="text"], textarea, select
@@ -43,31 +46,35 @@ input[type="text"], textarea, select
 input[type="submit"]
 {
     border:none;
+    outline:none;
     color:#FFCB9A;
     background-color:#1b1b1b;
     height: 40px;
     text-align: center;
     border-radius: 3%;
+    width:250px;
+    margin-left:50px;
 }
 
 #submit_desc
 {
-    margin-bottom:15%;
+    margin-bottom:5%;
 }
 
 textarea
 {
-    max-height: 25%;
-    max-width: 98%;
+    max-height: 100px;
+    max-width: 240px;
     background: transparent;
     border:1px solid #FFCB9A;
     color:#FFCB9A;
+    margin-left:50px;
 }
 
 label
 {
     margin-bottom: 7%;
-    margin-top:4%;
+    margin-left:50px;
 }
 
 form
@@ -81,12 +88,13 @@ select
 {
     background-color: transparent;
     border: none;
-    width: 180px;
+    width: 250px;
     border-left:5px;
     border-right: 5px;
     background-color:#2C3531;
     border: 1px solid #FFCB9A;
     height:25px;
+    margin-left:50px;
 }
 
 optgroup 
@@ -111,12 +119,24 @@ option
     justify-content: center;
 }
 
+.avatar input
+{
+    margin-left:70px;
+}
+
 .avatar img
 {
     height:200px;
-    width:200px;
     border-radius: 10%;
     margin-top:15px;
-    margin-left:10px;
     margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p
+{
+    margin-left:50px;
 }
