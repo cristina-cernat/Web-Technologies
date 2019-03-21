@@ -1,5 +1,20 @@
-@media {
+@media (min-width: 700px){
 	.main-footer {
 		font-size: 75%;	
+	}
+}
+
+@media (min-width: 558px) {
+	.main-footer{
+		font-size: 75%;
+	}
+	#footer-facebook-image {
+		visibility: hidden;
+	}
+	#footer-twitter-image {
+		visibility: hidden;
+	}
+	#footer-email-image {
+		visibility: hidden;
 	}
 }
