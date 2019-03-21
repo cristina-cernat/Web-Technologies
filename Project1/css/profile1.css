@@ -4,7 +4,9 @@ main
     height:1000px;
     display:flex;
     flex-flow:column;
-    align-items: center;
+    align-self: center;
+    justify-content: center;
+
     background-color: #116466;
     color:#FFCB9A;
 }
@@ -21,6 +23,7 @@ main
     border-radius:7%;
     display:flex;
     flex-flow:column;
+    justify-content: center;
     color:#FFCB9A;
     font-size:20px;
 }
