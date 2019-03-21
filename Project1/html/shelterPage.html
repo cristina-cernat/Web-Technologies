@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" href="../css/just_the_header.css">
-	<link rel="stylesheet" href="../css/just_the_footer.css">
-	<link rel="stylesheet" media="(max-width:919px)" href="../css/footer-small.css">	
-	<link rel="stylesheet" media="(max-width:775px)" href="../css/header-small.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CriC</title>
-</head>
+	<head>
+		<link rel="stylesheet" href="../css/just_the_header.css">
+		<link rel="stylesheet" href="../css/just_the_footer.css">	
+		<link rel="stylesheet" href="../css/shelterPage.css">
+		<link rel="stylesheet" media="(max-width:919px)" href="../css/footer-small.css">	
+		<link rel="stylesheet" media="(max-width:775px)" href="../css/header-small.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CriC Shelters</title>
+	</head>
+	<body>
 
-<body>
 
 		<header class="main-header">
 			<div class="header-logo-and-text">
@@ -35,7 +36,32 @@
 			</div>
 		</header>
 
-	<footer class="main-footer">
+	<main>
+		<div id="main-items">
+			<div id="alert-description">
+				<h3>
+					<u>Blizzard Warning for Sanikiluaq</u>
+				</h3>
+					<p class="actual-description">
+					<p id="alert-subtitle"><b>Blizzard will persist over these regions today through tonight.</b>
+					</p>	
+								Blizzard conditions will affect this region through Sunday morning.
+								Please continue to monitor alerts and forecasts issued by Environment Canada.
+								Consider postponing non-essential travel until conditions improve. Avoid outdoor activities.
+					</p>
+					<!-- <div id="find-shelter-line">		
+						<img id="location-img" src="../img/location.svg">
+						<p><b><u><a href="./shelterPage.html">Find Shelter</a></u></b></p>
+					</div>		 -->			
+					</div>	
+			<div>
+			<iframe width="400" height="400" 
+			src="http://google.org/crisismap/weather_and_events?hl=en&llbox=57.86%2C22.62%2C-39.48%2C-148.46&t=ROADMAP&layers=30%2C1%2C31%2C32%2C1340721332252%3A49%2C20%2C12%2Clayer9%2C2&embedded=true" 
+			style="border: 1px solid #ccc"></iframe></div>
+		</div>
+	</main>
+	
+<footer class="main-footer">
 		<div class="main-footer-bar">
 			<div class="footer-logo-and-text">
 				<a class="footer-logo" href="./mainPage.html"> CriC </a>
@@ -73,6 +99,7 @@
 				</ul>
 		    </div>
 		</div>
-	</footer>
+	</footer>	
 </body>    
+
 </html>

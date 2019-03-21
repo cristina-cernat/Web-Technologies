@@ -1,0 +1,14 @@
+main{
+	color: #d9b08c ;
+	display: flex;
+	justify-content: space-between;
+	font-size: 200%
+}
+main div{
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 2px solid #FFCB9A;
+}
+main a {
+	color: #cb2d6f;
+}
