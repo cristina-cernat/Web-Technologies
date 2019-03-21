@@ -14,8 +14,8 @@
 
 iframe {
     border: 1px solid #FFCB9A;
-    margin-top: 20px;
-    margin-bottom:20px;
+    margin-top: 1.250em;
+    margin-bottom:1.250em;
 }
 
 #map{
@@ -37,10 +37,10 @@ iframe {
     align-self: flex-start;
     justify-content: space-around;
     max-width: 30%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 0.625em;
+    margin-top: 1.250em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
 
 }
 
@@ -64,9 +64,9 @@ iframe {
 
 
 #location-img {
-    width: 45px;
-    height: 45px; 
-    margin: 5px;
+    width: 40.313em;
+    height: 40.313em; 
+    margin: 0.313em;
 }
 
 #find-shelter-line {
@@ -97,17 +97,17 @@ pre {
     align-self: flex-start;
     justify-content: space-around;
     max-width: 30%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    padding: 0.625em;
+    margin-top: 1.250em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    margin-bottom: 1.250em;
 }
 
 .actual-alerts {
     background-color: #fff3db;
-    padding: 5px;
-    margin: 5px; 
+    padding: 0.313em;
+    margin: 0.313em; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
