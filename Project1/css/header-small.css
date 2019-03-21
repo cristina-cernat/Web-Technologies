@@ -2,7 +2,9 @@
 	.main-header {
 		font-size: 75%;	
 	}
-	
+.header-logo-text {
+    padding-top: 9px;
+}
 	#header-bell img { 
 		width: 35px;
 		height: auto;
@@ -15,10 +17,14 @@
 }
 
 @media (min-width: 356px) and (max-width: 597px) {
-/* 	.header-nav-item {
-	   font-size: 0%;
-	}
-	 */
+
+.header-logo-text {
+		padding-top: 17px;
+
+}
+main{
+	font-size: 100%
+}
 	.header-logo {
 		margin-bottom: 0;
 	}
@@ -41,6 +47,9 @@
 }
 
 @media (max-width: 356px) {
+.header-logo-text {
+    padding-top: 5px;
+}
 	.header-logo-text{
 			visibility: hidden;
 			}
