@@ -5,6 +5,7 @@ footer {
 main {
     width: 79%;
     display: flex;
+    justify-content: space-around;
   color: #d9b08c;
   padding-bottom: 112px;
   
@@ -34,7 +35,7 @@ main {
 }
 
 #pictures{
-  width: 39%;
+  width: 50%;
   border-style: solid;
   border-width: 5%;
   border-color: #d1e8e2;
@@ -54,7 +55,7 @@ main {
 
 #textdata{
   background-color: #FFCB9A;
-  width: 39%;
+  width: 50%;
   border-style: solid;
   border-width: 5%;
   color: #2C3531;
