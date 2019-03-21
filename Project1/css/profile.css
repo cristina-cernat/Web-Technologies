@@ -1,0 +1,121 @@
+
+main
+{
+    height:800px;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    background-color: #116466;
+    color:#FFCB9A;
+}
+
+.profile
+{
+    background-color:#2C3531;
+    width: 600px;
+    margin-top:3%;
+    margin-bottom: 3%;
+    border-radius:7%;
+    display:flex;
+    justify-content: space-around;
+    height:430px;
+    color:#FFCB9A;
+}
+
+div.user_info, form.user_info
+{
+    display:flex;
+    flex-flow: column;
+    padding:25px;
+    width:30%;
+}
+
+#name,#username
+{
+    margin-bottom:10%;
+}
+
+input[type="text"], textarea, select
+{
+    margin-bottom:5%;
+}
+
+input[type="submit"]
+{
+    border:none;
+    color:#FFCB9A;
+    background-color:#1b1b1b;
+    height: 40px;
+    text-align: center;
+    border-radius: 3%;
+}
+
+#submit_desc
+{
+    margin-bottom:15%;
+}
+
+textarea
+{
+    max-height: 25%;
+    max-width: 98%;
+    background: transparent;
+    border:1px solid #FFCB9A;
+    color:#FFCB9A;
+}
+
+label
+{
+    margin-bottom: 7%;
+}
+
+form
+{
+    display:flex;
+    flex-flow:column;
+    color:#FFCB9A;
+}
+
+select
+{
+    background-color: transparent;
+    border: none;
+    width: 180px;
+    border-left:5px;
+    border-right: 5px;
+    background-color:#2C3531;
+    border: 1px solid #FFCB9A;
+    height:25px;
+}
+
+optgroup 
+{
+    color:#FFCB9A;
+}
+
+option
+{
+    color:#FFCB9A;
+}
+
+#location
+{
+    color:rgb(100, 100, 100);
+}
+
+.avatar
+{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+img
+{
+    height:200px;
+    width:200px;
+    border-radius: 10%;
+    margin-top:15px;
+    margin-left:10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Profile</title>
+        <link rel="stylesheet" href="../css/profile.css">
+        <link rel="stylesheet" href="../css/just_the_header.css">
+        <link rel="stylesheet" href="../css/just_the_footer.css" >
+        <link rel="stylesheet" media="(max-width:919px)" href="../css/footer-small.css">	
+	    <link rel="stylesheet" media="(max-width:710px)" href="../css/header-small.css">
+    </head>
+    <body>
+
+            <header class="main-header">
+                    <div class="header-logo-and-text">
+                        <a class="header-logo" href="/mainPage.html"> CriC </a>
+                        <a class="header-logo-text" href="/mainPage.html"> Crisis Contaiment <p>Service</p> </a>
+                    </div>
+        
+                    <div class="header-nav">
+                        <ul>
+                            <li class="header-nav-item" id="header-bell">
+                                <a href="path-to-notification-page"><img src="../img/bell.svg" alt="Notification_Bell"> </a>
+                            </li>	
+                            <li class="header-nav-item" ><a href="./lostPersonFeed.html">Person Finder</a></li>
+                            <li class="header-nav-item" ><a href="./">Login</a></li>
+                            <li class="header-nav-item"><a href="./register.html">Register</a></li>
+                            <li class="header-nav-item" id="header-profile">
+                                <a href="path-to-profile-page"><img src="../img/avatar.svg" alt="Profile_Picture"> </a>
+                            </li>
+                        <li class="header-nav-item" id="header-menu-icon"> 
+                            <img src="../img/menu.svg" alt="Menu">
+                        </li>
+                    </ul>
+                    </div>
+                </header>
+
+
+
+    <main>
+        <div class="profile">
+            <div class="avatar">
+                <img src="../img/CRsapte.jpg">
+                <input type="submit" id="change_pic" name="" value="Change profile picture">
+            </div>
+            <div class="user_info">
+                <p id="name">
+                <span id="nam">Name: </span>
+                <span id="actual_name">Hamster</span>
+                </p>
+                <p id="username">
+                <span id="usernam">Username: </span>
+                <span id="actual_username">hamster001</span>
+                </p>
+                <form>
+                    <label for="description">Description:</label>
+                    <textarea type="text" id="description" name="user_description" placeholder="Type description"></textarea>
+                    <input type="submit" id="submit_desc" name="" value="Save description">
+                    <label for="location">Location:</label>
+                    <select type="text" id="location" name="user_location" >
+                        <optgroup>
+                            <option>Select timezone:</option>
+                            <option>UTC+14</option>
+                            <option>UTC+13</option>
+                            <option>UTC+12</option>
+                            <option>UTC+11</option>
+                            <option>UTC+10</option>
+                            <option>UTC+9</option>
+                            <option>UTC+8</option>
+                            <option>UTC+7</option>
+                            <option>UTC+6</option>
+                            <option>UTC+5</option>
+                            <option>UTC+4</option>
+                            <option>UTC+3</option>
+                            <option>UTC+2</option>
+                            <option>UTC+1</option>
+                            <option>UTC 0</option>
+                            <option>UTC-1</option>
+                            <option>UTC-2</option>
+                            <option>UTC-3</option>
+                            <option>UTC-4</option>
+                            <option>UTC-5</option>
+                            <option>UTC-6</option>
+                            <option>UTC-7</option>
+                            <option>UTC-8</option>
+                            <option>UTC-9</option>
+                            <option>UTC-10</option>
+                            <option>UTC-11</option>
+                            <option>UTC-12</option>
+
+                        </optgroup>
+                    </select>
+                    <input type="submit" id="submit" name="" value="Save location">
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    
+
+
+
+    <footer class="main-footer">
+            <div class="main-footer-bar">
+                <div class="footer-logo-and-text">
+                    <a class="footer-logo" href="path-to-main-page"> CriC </a>
+                    <p class="footer-logo-text"> <a class="link" href="path-to-main-page">Crisis Contaiment </a></p>
+                    <a class="link" href="path-to-main-page"><p class="link" id="service">Service</p></a>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li class="footer-nav-item">
+                            <ul>
+                                <li><a class="link" href="path-to-main-page"> <strong>Home</strong> </a> </li> 
+                                <li><a class="link" href="./lostPersonFeed.html">Person Finder</a></li>
+                                <li><a class="link" href="path-to-register-page">Register</a></li>
+                                <li><a class="link" href="path-to-profile-page">Your Profile</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav-item"><a class="link" href="path-to-the-about-page"> About Crisis Contaiment 
+                            <p>Service</p></a>
+                        </li>
+                        <li class="footer-nav-item"> Contact </li>
+                        <li class="footer-nav-item" id="footer-facebook-image">
+                            <a href="path-to-facebook-page">
+                                <img src="../img/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="footer-nav-item" id="footer-twitter-image">
+                            <a href="path-to-twitter-page">
+                                <img src="../img/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li class="footer-nav-item" id="footer-email-image">
+                            <a href="path-to-email">
+                                <img src="../img/email.svg" alt="E-mail">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+            
+    </body>
+</html>
