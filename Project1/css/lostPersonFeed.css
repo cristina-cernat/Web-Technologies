@@ -4,20 +4,33 @@
 
 #openalerts{
 	min-width: 19%;
-	border-style: dashed;
+	border-style: solid;
 	border-width: thick;
+	color: #2c3531;
 }
-
+#openalerts p {
+	color: #d9b08c ;
+}
 main{
 	min-width: 59%;
-	border-style: dashed;
+	border-style: solid;
 	border-width: thick;
+	color: #2c3531;
 }
-
+#searchperson h1 {
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+	color: #d9b08c;
+}
+#searchperson form {
+	color: #d9b08c;
+}
 #rightside{
 	min-width: 19%;
-	border-style: dashed;
+	border-style: solid;
 	border-width: thick;
+	color: #2c3531;
 }
 
 .fit-picture{
@@ -29,11 +42,14 @@ main{
 }
 
 .missingperson{
-	border-style: dashed;
-	border-width: thick;
+	border-style: solid;
+	border-width: 3%;
+	color: #d1e8e2;
 	margin-top:20px;
 }
-
+.infoperson{
+	color: #d9b08c ;
+} 
 .buttonfound{
 	float: right;
 	min-width: 100%;
