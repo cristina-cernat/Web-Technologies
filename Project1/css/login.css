@@ -3,9 +3,7 @@ main{
     display:flex;
     justify-content: center;
     margin:2%;
-	margin-bottom: 8%;
-	min-width:90%;
-
+    min-width:90%;
 } 
 
 *.loginbox{
