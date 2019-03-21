@@ -9,6 +9,7 @@
     min-width: 75%;
     position: relative;
     
+    padding-bottom: 112px;
 }
 
 iframe {
@@ -24,6 +25,8 @@ iframe {
     margin: 0;
     max-width: 400px;
 }
+
+
 
 #alert-description {
     order: 1;
@@ -41,8 +44,6 @@ iframe {
 
 }
 
-
-
 @media (min-width :558px) {
     main {
         flex-wrap: wrap;
@@ -50,16 +51,17 @@ iframe {
         align-items: center;
     } 
 
-    #alert-description {
-        max-width: 70%;
+    #main #alert-description {
+        max-width: auto;
     }
 }
 
-@media (min-widt: 1230px) {
+@media (min-width: 1230px) {
     #new-alerts:last-child {
         align-self: flex-start;
     }
 }
+
 
 #location-img {
     width: 45px;
