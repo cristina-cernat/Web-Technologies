@@ -1,11 +1,8 @@
-main {
-    border: solid;
-    
-}
 #mainn {
+    border: solid;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 
     min-height: 100%;
@@ -16,15 +13,20 @@ main {
 
 iframe {
     border: 1px solid #FFCB9A;
-    margin: 5%;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
 #map{
+    order: 2;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    max-width: 400px;
 }
 
 #alert-description {
+    order: 1;
     background-color: #FFCB9A;
     display: flex;
     flex-direction: column;
@@ -34,8 +36,12 @@ iframe {
     max-width: 30%;
     padding: 10px;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
+
+
 
 @media (min-width :558px) {
     main {
@@ -43,6 +49,16 @@ iframe {
         flex-direction: column;
         align-items: center;
     } 
+
+    #alert-description {
+        max-width: 70%;
+    }
+}
+
+@media (min-widt: 1230px) {
+    #new-alerts:last-child {
+        align-self: flex-start;
+    }
 }
 
 #location-img {
@@ -63,10 +79,12 @@ pre {
 
 #alert-subtitle {
     text-align: center;
-
 }
 
+
+
 #new-alerts {
+    order: 3;
     background-color: #FFCB9A;
     display: flex;
     flex-direction: column;
@@ -76,9 +94,18 @@ pre {
     max-width: 30%;
     padding: 10px;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .actual-alerts {
-    background-color: beige;
+    background-color: #fff3db;
+    padding: 5px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
+
