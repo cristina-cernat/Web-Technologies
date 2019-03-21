@@ -5,7 +5,7 @@ footer {
 main {
     width: 79%;
     display: flex;
-  color: #2c3531;
+  color: #d9b08c;
   padding-bottom: 112px;
   
 }
@@ -53,10 +53,11 @@ main {
 }
 
 #textdata{
+  background-color: #FFCB9A;
   width: 39%;
   border-style: solid;
   border-width: 5%;
-  color: #d9b08c;
+  color: #2C3531;
   border-color: #d9b08c;
   float: right;
   margin: 0.313em;
@@ -72,9 +73,11 @@ main {
   align-self: flex-start;
   justify-content: space-around;
   padding: 0.625em;
-  margin-top: 1.250em;
+  margin-top: 0.625em;
   margin-left: 0.625em;
   margin-right: 0.625em;
+  margin-bottom: 0.625em;
+
 
 }
 
@@ -90,4 +93,8 @@ main {
   width: 3.125em;
   height: 3.125em; 
   margin: 0.313em;
+}
+
+input {
+  margin: 0.125em;
 }
