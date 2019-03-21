@@ -121,3 +121,13 @@ pre {
 
 }
 
+@media (max-width: 1200px) {
+    #main-items {
+        flex-direction: column;
+		justify-content: center;
+	}  
+ #alert-description, #new-alerts	{
+		max-width: 100%;
+ }
+}
+
