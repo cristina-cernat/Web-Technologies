@@ -86,7 +86,14 @@
                 <h3>3.4. Handling missing people</h3>
                 <img src="../doc_img/missing.jpg" alt="Missing people use case diagram">
                 <p>
-                        <p>&emsp;</p>
+                        <p>&emsp;
+                            Any authenticated user can request adding or removing a missing person. The organization accounts have
+                            to check if the request is justify and proceed act accordingly. 
+                            &emsp; When a user requests adding a missing person, their infomration becoms the contact information
+                            for the missing person in case they are found. The user who made the requests will also recieve a notification 
+                            when the person is declared found and removed from the database.
+                            &emsp;Any user can see the list of missing people.
+                        </p>
                 </p>
             </p>
         </section>
@@ -97,7 +104,7 @@
                 <h3>4.1. Relational database schema</h3>
                 <img src="../doc_img/db.jpg" alt="Database relational schema">
                 <h3>4.2. Non-relational database schema</h3>
-                <img src="../doc_img/db.jpg" alt="Database relational schema">
+                <img src="../doc_img/ndb.jpg" alt="Database relational schema">
                 <p>
   
                         <h4>users</h3>
@@ -235,6 +242,9 @@
             </p>
         </section>
 
+        <section>
+            <h2>6. Application architecture</h2>
+        </section>
 
     </body>
 </html>
