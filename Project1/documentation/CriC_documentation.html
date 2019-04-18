@@ -8,39 +8,42 @@
             section{margin-left: 5% ; margin-right: 20%; text-align: justify }
             p{text-align: justify}
             img{display: block;margin-left: auto;margin-right: auto;}
-            h1{text-align: center;}
+            h1{text-align: center; font-size: 40px}
             h4{margin-left:2%;}
         </style>
     </head>
 
     <body >
         <section>
-            <h1><font size="50">CriC</font></h1>
+            <h1>CriC</h1>
             <p>
                 <h2>1. Introduction</h2>
                 <p>
-                    <p>&emsp;CriC is a web platform which manages emergency situations (e.g. earthquakes, fires, floods etc.) by the 
+                    <p>
+                        &emsp;CriC is a web platform which manages emergency situations (e.g. earthquakes, fires, floods etc.) by the 
                             authorities or organizations. The application will integrate Google Crisis Map and Fusion Tables or creating 
                             additional layers. These layers would provide information of interest aiming at the occurring events and the 
                             affected areas. 
-                        </p>
-                    <p>&emsp;We will use CAP (Common Alerting Protocol) for transmitting the notifications and alerts to the population
+                    </p>
+                    <p>
+                        &emsp;We will use CAP (Common Alerting Protocol) for transmitting the notifications and alerts to the population
                             (directly affected or nearby); eventually using social platforms.
-                        </p>
-                    <p>&emsp;Using Geolocaion API and servicies like Google Person Finder, the system can automatically provide
+                    </p>
+                    <p>
+                        &emsp;Using Geolocaion API and servicies like Google Person Finder, the system can automatically provide
                             information about finding a missing person (e.g. when the respective person is unconscious or injured) and/or 
                             about possible shelters and rescue routes.
-                        </p>
+                    </p>
                 </p>
             </p>
         </section>
 
         <section>
             <h2>2. User types</h2>
-            <div>
+            <p>
                 &emsp; The application admits multiple types of users, each of them being provided with various functionalities.
                 <h3>2.1. Regular user</h3>
-                <div>
+                <p>
                     <h4>2.1.1. Unuthenticated user/Guest</h4>
                     <p>
                         &emsp; This kind of user has minimal access to the application. He can either register in order to become an authenticated user, 
@@ -55,14 +58,14 @@
                         person succeeds, the user will receive a notification when the person is found. The removal of a missing person
                         means that the person has been found. 
                     </p>
-                </div>
+                </p>
                 <h3>2.2. Organization</h3>
                 <p>
                     &emsp;This is the most powerful kind of user in this application. They belong to profile organisations or authorities.
                     They can use any of the functionalities mentioned before. They are also responsable of adding or removing shelters,
                     missing people or alerts and checking if the request to do so is justified.
                 </p>
-            </div>
+            </p>
         </section>
 
         <section>
@@ -118,35 +121,35 @@
                 <img src="../doc_img/ndb.jpg" alt="Database non-relational schema">
                 <p>
   
-                        <h4>users</h3>
+                        <h4>users</h4>
                         <p>
                                 After creating an account, the information provided by the user in order to create the account will be
                                 saved here.
                         </p>
         
-                        <h4>shelters</h3>
+                        <h4>shelters</h4>
                         <p>
                                 Contains all the shelters available.
                         </p>
         
-                        <h4>emergencies</h3>
+                        <h4>emergencies</h4>
                         <p>
                                 Contains the emergencies that take place at that certain moment.
                         </p>
         
-                        <h4>provide_shelter</h3>
+                        <h4>provide_shelter</h4>
                         <p>
                                 Relation between users, emergencies and shelters. Has the role to connect a user which is in the 
                                 vecinity of an emergency to a shelter nearby.
                         </p>
         
-                        <h4>missing_people</h3>
+                        <h4>missing_people</h4>
                             <p>
                                     Contains the people that have been declared missing and information that could be helpful
                                     in order to find them.
                             </p>
 
-                        <h4>find</h3>
+                        <h4>find</h4>
                         <p>
                                 Relation between users and missing_people. Provides a contact to reach when a person is found.
                         </p>
@@ -218,9 +221,9 @@
                             <p>&emsp;It provides flexible geographic targeting using latitude and longitude shapes, multilingual 
                                 messaging, phased or delayed times and expirations, message updates, cancellations; facility for 
                                 digital images and audio.</p>
-                            <p>&emsp;The structure of it consists of an <alert> segment, which may contain one or more <info> segments,
-                                 each of them eventually including one or more <area> and/or <resource> segments. Mostly, the CAP messages 
-                                     should include at least one <info> element.</p>
+                            <p>&emsp;The structure of it consists of an "alert" segment, which may contain one or more "info" segments,
+                                 each of them eventually including one or more "area" and/or "resource" segments. Mostly, the CAP messages 
+                                     should include at least one "info" element.</p>
                     </p>
                     <h4>5.7.4. Google Person Finder</h4>
                     <p>
@@ -265,23 +268,39 @@
         <section>
             <h2>7. Tasks</h2>
             <ul>
-                    <li>create database</li>
-                    <li>conect to database (php)</li>
-                    <li>add emergency</li>
-                    <li>remove emergency</li>
-                    <li>edit emergency</li>
-                    <li>register</li>
-                    <li>log in</li>
-                    <li>log out</li>
-                    <li>edit profile</li>
-                    <li>delete profile</li>
-                    <li>add shelter</li>
-                    <li>delete shelter</li>
-                    <li>edit shelter</li>
-                    <li>api integration x5 </li>
-                    <li>add missing person</li>
-                    <li>delete missing person</li>
-                    <li>modify missing person</li>
+                    <li>create database (L)</li>
+                    <li>conect to database (L)</li>
+                    <li>add emergency (L)</li>
+                    <li>remove emergency (L)</li>
+                    <li>edit emergency (L)</li>
+                    <li>register (I)</li>
+                    <li>log in (I)</li>
+                    <li>log out (I)</li>
+                    <li>edit profile (I)</li>
+                    <li>delete profile (I)</li>
+                    <li>add shelter (A)</li>
+                    <li>delete shelter (A)</li>
+                    <li>edit shelter (A)</li>
+                    <li>Google crisis map API integration (C)</li>
+                    <li>Google Fusion Tables API integration (C)</li>
+                    <li>Google Person Finder API integration (A)</li>
+                    <li>Geolocation API integration (A)</li>
+                    <li>Common Alerting Protocol integration (I)</li>
+                    <li>add missing person (L)</li>
+                    <li>delete missing person (L)</li>
+                    <li>modify missing person (L)</li>
+                    <li>basic PHP structure (I)</li>
+                    <li>modify HTML into PHP module (C)</li>
+                    <li>create HTML missing files (C)</li>
+                    <li>create CSS for missing files (C)</li>
+            </ul>
+            <ul>
+            <h3>Authors</h3>
+            <li>Balan Ioana Maria (I)</li>
+            <li>Cernat Cristina Mihaela (C)</li>
+            <li>Ghiran Andrei (A)</li>
+            <li>Vega Palma Leandro (L)</li>
+            </ul>
             </ul>
         </section>
 
