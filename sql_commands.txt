@@ -1,0 +1,17 @@
+CREATE TABLE `crisis`.`Users` ( `firstname` VARCHAR(20) NOT NULL , `lastname` VARCHAR(20) NOT NULL , `username` VARCHAR(20) NOT NULL , `password` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , PRIMARY KEY (`email`(50)), UNIQUE `username` (`username`)) ENGINE = InnoDB;
+
+CREATE TABLE `crisis`.`missing_persons` ( `firstname` VARCHAR(20) NOT NULL , `lastname` VARCHAR(20) NOT NULL , `last_location` VARCHAR(20) NOT NULL , `age` INT(3) NOT NULL , `height` INT(3) NOT NULL , `eye_colour` SET('brown','green','blue','other') NOT NULL , `sex` SET('male','female','other','') NOT NULL , `medical_condition` TEXT NOT NULL , `description` TEXT NOT NULL , `main_picture` VARCHAR(50) NOT NULL , `picture2` VARCHAR(50) NOT NULL , `picture3` VARCHAR(50) NOT NULL , `picture4` VARCHAR(50) NOT NULL , `picture5` VARCHAR(50) NOT NULL , `email_contact` VARCHAR(50) NOT NULL , `phone_contact` VARCHAR(20) NOT NULL , `firstname_contact` VARCHAR(20) NOT NULL , `lastname_contact` VARCHAR(20) NOT NULL ) ENGINE = InnoDB;
+
+CREATE TABLE `crisis`.`shelters` ( `name` VARCHAR(20) NOT NULL , `location` VARCHAR(20) NOT NULL , `requisites` TEXT NOT NULL , `description` TEXT NOT NULL , PRIMARY KEY (`location`)) ENGINE = InnoDB;
+
+CREATE TABLE `crisis`.`emergencies` (
+ `type` set('fire','storm','flood','tsunami','earthquake','terrorism','nuclear','toxic_gas','snow','heat','other') NOT NULL,
+ `location` varchar(100) NOT NULL,
+ `description` text NOT NULL,
+ `actions` text NOT NULL,
+ `date_end` varchar(10) NOT NULL,
+ `id` varchar(20) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+ALTER TABLE `missing_persons` ADD `id` VARCHAR(20) NOT NULL AFTER `lastname_contact`, ADD PRIMARY KEY (`id`);
